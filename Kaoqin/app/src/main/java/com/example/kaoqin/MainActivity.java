@@ -45,9 +45,9 @@ public class MainActivity extends MyBaseActivity implements View.OnLayoutChangeL
         System.out.println("真正结束");
     }
     private void  initData(){
-        picList.add("http://img0.imgtn.bdimg.com/it/u=1186214213,1117178473&fm=15&gp=0.jpg");
-        picList.add("http://img3.imgtn.bdimg.com/it/u=1782195575,562339618&fm=21&gp=0.jpg");
-        picList.add("http://img0.imgtn.bdimg.com/it/u=4151353587,2150503411&fm=21&gp=0.jpg");
+        picList.add("http://58.57.165.71:5001/app/kaoqin/1.jpg");
+        picList.add("http://58.57.165.71:5001/app/kaoqin/2.jpg");
+        picList.add("http://58.57.165.71:5001/app/kaoqin/3.jpg");
     }
     private void searchResultShow(int i) {
 
