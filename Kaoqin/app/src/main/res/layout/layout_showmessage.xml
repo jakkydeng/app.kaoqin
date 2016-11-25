@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.zhy.android.percent.support.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cfffff">
+<com.zhy.android.percent.support.PercentLinearLayout
+    android:id="@+id/show"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:layout_heightPercent = "110%w"
+    app:layout_widthPercent = "90%w"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center">
+
+</com.zhy.android.percent.support.PercentLinearLayout>
+    <TextView
+        android:layout_below="@id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="消费日期"
+        android:gravity="center"
+        app:layout_textSizePercent="4%"/>
+
+
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
